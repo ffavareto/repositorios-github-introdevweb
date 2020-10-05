@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --primary-color: #cdff6f;
+    --dark-color: #333;
+    --light-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-image: url('images/bg.png');
+}
+
+body, input, button {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    background-color: var(--dark-color);
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--light-color);
+}
+
+header input {
+    padding: 6px;
+}
+
+header label {
+    font-size: 20px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 200px;
+    border: 5px solid var(--primary-color);
+}
+
+.user h1 {
+    font-size: 48px;
+    color: var(--dark-color);
+    background-color: var(--primary-color);
+    padding: 8px 24px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.repos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.repo {
+    background-color: var(--primary-color);
+    width: 300px;
+    height: 100px;
+    padding: 16px 32px;
+    border-radius: 16px;
+    color: var(--dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.repo div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.repo a {
+    text-decoration: none;
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    padding: 8px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    color: var(--dark-color);
+    font-weight: bold;
+}
+
+button:active{
+    transform: translateY(2px);
+}
