@@ -1,0 +1,20 @@
+{
+  "name": "repositorios-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffavareto/repositorios-github-introdevweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffavareto/repositorios-github-introdevweb/issues"
+  },
+  "homepage": "https://github.com/ffavareto/repositorios-github-introdevweb#readme"
+}
